@@ -1,6 +1,4 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "practical_additions:item/weedblunt",
 		"particle": "practical_additions:item/weedblunt"
@@ -65,19 +63,6 @@
 		"fixed": {
 			"rotation": [90, 0, 0],
 			"translation": [0, 0, 6]
-		},
-		"on_shelf": {
-			"rotation": [90, 0, 0],
-			"translation": [0, 0, 4.5]
 		}
-	},
-	"groups": [
-		{
-			"name": "group",
-			"origin": [8, 8, 8],
-			"scope": 0,
-			"color": 0,
-			"children": [0, 1]
-		}
-	]
+	}
 }
