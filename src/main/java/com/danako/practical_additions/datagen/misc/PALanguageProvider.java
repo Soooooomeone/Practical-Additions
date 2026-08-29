@@ -158,6 +158,8 @@ public class PALanguageProvider extends LanguageProvider {
 
         addItem(PAItems.KEVLAR_SHIELD, "Kevlar Shield");
 
+        addItem(PAItems.BLUNT, "Blunt");
+
         add("tooltip."  + PracticalAdditions.MODID + ".kevlar.projectile_protection", "Reduces damage from projectiles");
 
         add("tooltip."  + PracticalAdditions.MODID +  ".lead.weighted", "Lead Weighted");

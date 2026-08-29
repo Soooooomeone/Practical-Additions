@@ -152,6 +152,9 @@ public class PACreativeModeTabs {
         output.accept(PAItems.REINFORCED_QUIVER.get());
         output.accept(PAItems.REINFORCED_BACKPACK.get());
 
+        // ===== Misc =====
+        output.accept(PAItems.BLUNT.get());
+
     }).build());
 
     public static void register() {

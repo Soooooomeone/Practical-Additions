@@ -12,6 +12,7 @@ import com.danako.practical_additions.common.item.magnet.MagnetFilterData;
 import com.danako.practical_additions.common.tool.aoe_tools.ExcavatorItem;
 import com.danako.practical_additions.common.tool.aoe_tools.HammerItem;
 import com.danako.practical_additions.common.tool.aoe_tools.SickleItem;
+import com.danako.practical_additions.common.item.blunt.BluntItem;
 import com.danako.practical_additions.init.data_components.PADataComponents;
 import com.danako.practical_additions.model.backpack.Backpack;
 import net.minecraft.core.component.DataComponents;
@@ -322,6 +323,8 @@ public class PAItems {
                             Optional.of(DamageTypeTags.BYPASSES_SHIELD),
                             Optional.of(SoundEvents.SHIELD_BLOCK),
                             Optional.of(SoundEvents.SHIELD_BREAK)))));
+
+    public static final DeferredItem<Item> BLUNT = ITEMS.registerItem("blunt", BluntItem::new);
 
     public static void register() {
     }
