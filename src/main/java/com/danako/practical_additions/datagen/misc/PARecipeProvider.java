@@ -287,7 +287,7 @@ public class PARecipeProvider extends RecipeProvider {
         ShapedRecipeBuilder.shaped(items, RecipeCategory.TOOLS, PAItems.LEAD_DIVING_BELT.get()).pattern("LLL").pattern("LCL").define('L', PAItems.LEAD_INGOT.get()).define('C', PAItems.COBALT_INGOT.get()).unlockedBy("has_lead_ingot", has(PAItems.LEAD_INGOT.get())).save(output);
         ShapedRecipeBuilder.shaped(items, RecipeCategory.REDSTONE, PAItems.DENSE_WEIGHTED_PRESSURE_PLATE.get()).pattern("XX").define('X', PAItems.LEAD_INGOT.get()).unlockedBy("has_lead_ingot", has(PAItems.LEAD_INGOT.get())).save(output);
 
-        ShapedRecipeBuilder.shaped(items, RecipeCategory.FOOD, PAItems.BLUNT.get()).pattern("P").pattern("G").define('P', Items.PAPER).define('G', Items.GRASS_SEEDS).unlockedBy("has_paper", has(Items.PAPER)).save(output);
+        ShapedRecipeBuilder.shaped(items, RecipeCategory.FOOD, PAItems.BLUNT.get()).pattern("P").pattern("G").define('P', Items.PAPER).define('G', Items.WHEAT_SEEDS).unlockedBy("has_paper", has(Items.PAPER)).save(output);
     }
 
 
