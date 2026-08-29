@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "MMM",
+    "MSM",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:iron_hammer"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "practical_additions:lapis"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "practical_additions:lapis"
+      }
+    ]
+  }
+}

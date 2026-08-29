@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:string",
+    "X": "practical_additions:cobalt_ingot"
+  },
+  "pattern": [
+    " SX",
+    "S X",
+    " SX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:cobalt_bow"
+  }
+}

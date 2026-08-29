@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:chest",
+    "I": "minecraft:iron_ingot",
+    "L": "minecraft:leather",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "LIL",
+    "LCL",
+    "LSL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:basic_backpack"
+  }
+}

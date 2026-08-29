@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.danako.practical_additions.mixin.common",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityDivingBeltMixin",
+    "LivingEntityDivingBeltMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

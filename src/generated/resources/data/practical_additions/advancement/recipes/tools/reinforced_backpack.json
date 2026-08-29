@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_basic_backpack": {
+      "conditions": {
+        "items": [
+          {
+            "items": "practical_additions:basic_backpack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "practical_additions:reinforced_backpack"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_basic_backpack"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "practical_additions:reinforced_backpack"
+    ]
+  }
+}

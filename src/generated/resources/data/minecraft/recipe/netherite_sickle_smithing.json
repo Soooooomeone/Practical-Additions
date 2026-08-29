@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "practical_additions:diamond_sickle",
+  "result": {
+    "id": "practical_additions:netherite_sickle"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

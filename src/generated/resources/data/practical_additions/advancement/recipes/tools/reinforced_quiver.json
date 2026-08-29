@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_basic_quiver": {
+      "conditions": {
+        "items": [
+          {
+            "items": "practical_additions:basic_quiver"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "practical_additions:reinforced_quiver"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_basic_quiver"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "practical_additions:reinforced_quiver"
+    ]
+  }
+}

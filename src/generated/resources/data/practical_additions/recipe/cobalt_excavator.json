@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": "practical_additions:cobalt_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " M ",
+    "MSM",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:cobalt_excavator"
+  }
+}

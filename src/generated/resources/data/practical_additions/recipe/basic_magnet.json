@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": "minecraft:ender_pearl",
+    "I": "minecraft:iron_ingot",
+    "L": "minecraft:lapis_lazuli",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "R L",
+    "I E",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:basic_magnet"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "practical_additions:block/dense_weighted_pressure_plate"
+  }
+}

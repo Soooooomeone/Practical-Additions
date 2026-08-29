@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "practical_additions:kevlar_fiber"
+  },
+  "pattern": [
+    "FF",
+    "FF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:kevlar_sheet"
+  }
+}

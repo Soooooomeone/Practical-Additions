@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "practical_additions:kevlar"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "practical_additions:kevlar"
+      }
+    ]
+  }
+}

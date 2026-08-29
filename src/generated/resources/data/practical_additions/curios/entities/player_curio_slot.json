@@ -1,0 +1,10 @@
+{
+  "entities": [
+    "#curios:player_like"
+  ],
+  "slots": [
+    "curio",
+    "back",
+    "belt"
+  ]
+}

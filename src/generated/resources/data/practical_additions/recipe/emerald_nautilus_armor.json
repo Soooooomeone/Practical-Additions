@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": "minecraft:nautilus_shell",
+    "X": "minecraft:emerald"
+  },
+  "pattern": [
+    "XXX",
+    "XNX",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:emerald_nautilus_armor"
+  }
+}

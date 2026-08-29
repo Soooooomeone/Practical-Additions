@@ -1,0 +1,24 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "practical_additions:cobalt"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "practical_additions:cobalt"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "practical_additions:cobalt"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "texture": "practical_additions:cobalt"
+      }
+    ]
+  }
+}

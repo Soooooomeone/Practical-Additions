@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "lead_ingot",
+  "ingredient": "practical_additions:raw_lead",
+  "result": {
+    "count": 1,
+    "id": "practical_additions:lead_ingot"
+  }
+}

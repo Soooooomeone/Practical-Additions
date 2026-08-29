@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": "practical_additions:lead_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " M ",
+    "  M",
+    "SM "
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:lead_sickle"
+  }
+}

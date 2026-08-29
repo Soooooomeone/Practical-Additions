@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "minecraft:leather",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    " SL",
+    "S L",
+    " LL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:basic_quiver"
+  }
+}

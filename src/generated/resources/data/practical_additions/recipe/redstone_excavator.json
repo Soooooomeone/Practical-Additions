@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": "minecraft:redstone",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " M ",
+    "MSM",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:redstone_excavator"
+  }
+}

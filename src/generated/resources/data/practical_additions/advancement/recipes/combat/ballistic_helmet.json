@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kevlar_sheet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "practical_additions:kevlar_sheet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "practical_additions:ballistic_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_kevlar_sheet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "practical_additions:ballistic_helmet"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": "practical_additions:kevlar_sheet",
+    "Q": "practical_additions:basic_quiver"
+  },
+  "pattern": [
+    "KKK",
+    "KQK",
+    "KKK"
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:reinforced_quiver"
+  }
+}
