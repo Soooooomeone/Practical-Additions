@@ -160,6 +160,10 @@ public class PALanguageProvider extends LanguageProvider {
 
         addItem(PAItems.BLUNT, "Blunt");
 
+        addBlock(PABlocks.WEED_CROP, "Weed Crop");
+        addItem(PAItems.RAW_WEED, "Raw Weed");
+        addItem(PAItems.COOKED_WEED, "Cooked Weed");
+
         add("tooltip."  + PracticalAdditions.MODID + ".kevlar.projectile_protection", "Reduces damage from projectiles");
 
         add("tooltip."  + PracticalAdditions.MODID +  ".lead.weighted", "Lead Weighted");

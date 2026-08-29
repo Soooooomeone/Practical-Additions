@@ -157,6 +157,9 @@ public class PAModelProvider extends ModelProvider {
         registerShieldModel(itemModels, PAItems.KEVLAR_SHIELD.get());
 
         registerCobaltBowModel(itemModels);
+
+        itemModels.generateFlatItem(PAItems.RAW_WEED.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(PAItems.COOKED_WEED.get(), ModelTemplates.FLAT_ITEM);
     }
 
     private void registerCobaltBowModel(ItemModelGenerators itemModels) {

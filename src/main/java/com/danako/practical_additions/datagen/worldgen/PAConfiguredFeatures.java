@@ -12,6 +12,7 @@ public class PAConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> LEAD_ORE = registerKey("lead_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> COBALT_ORE = registerKey("cobalt_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> WEED_CROP = registerKey("weed_crop");
 
     private static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, Identifier.fromNamespaceAndPath(PracticalAdditions.MODID, name));

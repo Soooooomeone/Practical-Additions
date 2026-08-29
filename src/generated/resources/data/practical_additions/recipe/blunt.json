@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "G": "practical_additions:cooked_weed",
+    "P": "minecraft:paper"
+  },
+  "pattern": [
+    "P",
+    "G"
+  ],
+  "result": {
+    "count": 1,
+    "id": "practical_additions:blunt"
+  }
+}

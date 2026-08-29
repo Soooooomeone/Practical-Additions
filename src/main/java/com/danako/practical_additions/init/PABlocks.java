@@ -1,6 +1,7 @@
 package com.danako.practical_additions.init;
 
 import com.danako.practical_additions.PracticalAdditions;
+import com.danako.practical_additions.common.block.WeedCropBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
@@ -43,6 +44,8 @@ public class PABlocks {
     public static final DeferredBlock<Block> COBALT_BLOCK = BLOCKS.registerSimpleBlock("cobalt_block", () -> BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND).instrument(NoteBlockInstrument.IRON_XYLOPHONE).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL));
 
     public static final DeferredBlock<Block> DENSE_WEIGHTED_PRESSURE_PLATE = BLOCKS.register("dense_weighted_pressure_plate", () -> new WeightedPressurePlateBlock(300, BlockSetType.IRON, BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(PracticalAdditions.MODID, "dense_weighted_pressure_plate"))).mapColor(MapColor.METAL).forceSolidOn().instrument(NoteBlockInstrument.IRON_XYLOPHONE).noCollision().requiresCorrectToolForDrops().strength(0.5F).sound(SoundType.METAL).pushReaction(PushReaction.DESTROY)));
+
+    public static final DeferredBlock<Block> WEED_CROP = BLOCKS.register("weed_crop", () -> new WeedCropBlock(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(PracticalAdditions.MODID, "weed_crop"))).mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.CROP).pushReaction(PushReaction.DESTROY).ignitedByLava()));
 
     public static void register() {
     }

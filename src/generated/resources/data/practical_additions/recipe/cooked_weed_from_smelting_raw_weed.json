@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "cooked_weed",
+  "ingredient": "practical_additions:raw_weed",
+  "result": {
+    "count": 1,
+    "id": "practical_additions:cooked_weed"
+  }
+}

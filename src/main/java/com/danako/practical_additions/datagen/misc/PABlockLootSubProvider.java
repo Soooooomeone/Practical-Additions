@@ -28,6 +28,7 @@ public class PABlockLootSubProvider extends BlockLootSubProvider {
         dropSelf(PABlocks.LEAD_BLOCK.get());
         dropSelf(PABlocks.RAW_COBALT_BLOCK.get());
         dropSelf(PABlocks.COBALT_BLOCK.get());
+        add(PABlocks.WEED_CROP.get(), block -> createSingleItemTable(PAItems.RAW_WEED.get()));
     }
 
     @Override
