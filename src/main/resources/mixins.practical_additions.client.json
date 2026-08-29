@@ -4,7 +4,8 @@
   "compatibilityLevel": "JAVA_21",
   "client": [
     "AbstractClientPlayerFovMixin",
-    "ClientLevelMixin"
+    "ClientLevelMixin",
+    "SoundEngineOcclusionMixin"
   ],
   "injectors": {
     "defaultRequire": 1
