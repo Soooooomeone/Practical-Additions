@@ -154,6 +154,9 @@ public class PACreativeModeTabs {
 
         // ===== Misc =====
         output.accept(PAItems.BLUNT.get());
+        output.accept(PAItems.WEED_CROP.get());
+        output.accept(PAItems.RAW_WEED.get());
+        output.accept(PAItems.COOKED_WEED.get());
 
     }).build());
 

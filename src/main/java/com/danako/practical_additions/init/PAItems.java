@@ -326,6 +326,7 @@ public class PAItems {
 
     public static final DeferredItem<Item> BLUNT = ITEMS.registerItem("blunt", BluntItem::new);
 
+    public static final DeferredItem<BlockItem> WEED_CROP = ITEMS.registerSimpleBlockItem(PABlocks.WEED_CROP);
     public static final DeferredItem<Item> RAW_WEED = ITEMS.registerSimpleItem("raw_weed");
     public static final DeferredItem<Item> COOKED_WEED = ITEMS.registerSimpleItem("cooked_weed");
 
