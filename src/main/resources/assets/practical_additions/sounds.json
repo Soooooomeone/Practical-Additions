@@ -1,0 +1,12 @@
+{
+  "bobmarley": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "practical_additions:bobmarley",
+        "stream": true
+      }
+    ],
+    "subtitle": "item.practical_additions.bobmarley_music_disc.desc"
+  }
+}

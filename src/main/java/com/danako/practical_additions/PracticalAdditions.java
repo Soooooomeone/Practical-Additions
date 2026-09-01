@@ -2,6 +2,8 @@ package com.danako.practical_additions;
 
 
 import com.danako.practical_additions.client.inventory.backpack.PABackpackClient;
+import com.danako.practical_additions.common.item.music_disc.ModItems;
+import com.danako.practical_additions.common.sound.ModSounds;
 import com.danako.practical_additions.config.PAConfig;
 import com.danako.practical_additions.datagen.DataGenerators;
 import com.danako.practical_additions.init.*;
@@ -47,6 +49,8 @@ public class PracticalAdditions {
         BackpackComponents.register(modEventBus);
         PAMenuTypes.register(modEventBus);
         PABackpackClient.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModSounds.register(modEventBus);
         PABlocks.register();
         PAItems.register();
         PACreativeModeTabs.register();

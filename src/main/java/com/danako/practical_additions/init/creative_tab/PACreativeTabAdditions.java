@@ -1,5 +1,6 @@
 package com.danako.practical_additions.init.creative_tab;
 
+import com.danako.practical_additions.common.item.music_disc.ModItems;
 import com.danako.practical_additions.init.PAItems;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -87,6 +88,7 @@ public class PACreativeTabAdditions {
         event.insertAfter(stack(PAItems.BASIC_BACKPACK.get()), stack(PAItems.REINFORCED_BACKPACK.get()), vis);
         event.insertAfter(stack(PAItems.REINFORCED_BACKPACK.get()), stack(PAItems.BASIC_QUIVER.get()), vis);
         event.insertAfter(stack(PAItems.BASIC_QUIVER.get()), stack(PAItems.REINFORCED_QUIVER.get()), vis);
+        event.insertAfter(stack(Items.MUSIC_DISC_11), stack(ModItems.BOB_MARLEY_MUSIC_DISC.get()), vis);
     }
 
     private static void addCombat(BuildCreativeModeTabContentsEvent event) {

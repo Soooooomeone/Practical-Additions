@@ -1,6 +1,7 @@
 package com.danako.practical_additions.init.creative_tab;
 
 import com.danako.practical_additions.PracticalAdditions;
+import com.danako.practical_additions.common.item.music_disc.ModItems;
 import com.danako.practical_additions.init.PAItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -153,6 +154,7 @@ public class PACreativeModeTabs {
         output.accept(PAItems.REINFORCED_BACKPACK.get());
 
         // ===== Misc =====
+        output.accept(ModItems.BOB_MARLEY_MUSIC_DISC.get());
         output.accept(PAItems.BLUNT.get());
         output.accept(PAItems.WEED_CROP.get());
         output.accept(PAItems.RAW_WEED.get());

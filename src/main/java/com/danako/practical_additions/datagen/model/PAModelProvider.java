@@ -160,6 +160,7 @@ public class PAModelProvider extends ModelProvider {
 
         itemModels.generateFlatItem(PAItems.RAW_WEED.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(PAItems.COOKED_WEED.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(com.danako.practical_additions.common.item.music_disc.ModItems.BOB_MARLEY_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
     }
 
     private void registerCobaltBowModel(ItemModelGenerators itemModels) {
